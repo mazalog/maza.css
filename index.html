@@ -1,147 +1,239 @@
 <!DOCTYPE hthml>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="./css/framework.css" >
+    <link rel="stylesheet" href="./css/framework.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <title>MazaCss</title>
 </head>
+
 <body>
-    <header>
-        <nav class="nav">
+    <header class="fixed">
+        <nav class="nav fixed">
             <div class="container">
-                <a href="#" class="active">Inicio</a>
-                <a href="#">Blog</a>
-                <a href="#">Acerca de</a>
-                <a href="#">Contacto</a>
+                <a href="#" class="active">Maza.css</a>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <h1>Encabezado H1</h1>
-        <h2>Encabezado H2</h4>
-        <h3>Encabezado H3</h3>
-        <h4>Encabezado H4</h4>
-        <h5>Encabezado H5</h5>
-        <h6>Encabezado H6</h6>
+    <div>
+    <div class="grid col-12 med-1 sm-1">
+        <!-- <div class="span-2 med-span-1 sm-span-1 bg-white ">
+                <div class="navcustom">
+                    <ul>
+                        <li>Nav</li>
+                        <li>Encabezados</li>
+                        <li>Displays</li>
+                        <li>Grid</li>
+                        <li>Botones</li>
+                        <li>Formularios</li>
+                        <li>Progreso</li>
+                        <li>Busqueda</li>
+                        <li>Backgrounds</li>
+                    </ul>
+                </div>
+        </div> -->
 
-        <h1 class="display-1">Display 1</h1>
-        <h2 class="display-2">Display 2</h4>
-        <h3 class="display-3">Display 3</h3>
-    </div>
-
-    <div class="container">
-        <main class="grid col-3 med-2 sm-1">
-            <div class="card">Card 1</div>
-            <div class="card">Card 2</div>
-            <div class="card">Card 3</div>
-            <div class="card">Card 4</div>
-            <div class="card">Card 5</div>
-            <div class="card">Card 6</div>
-        </main>
-    </div>
-
-    <div class="container card text-c">
-       <h1 class="display-1 n-m ">Lorem ipsum dolor</h1>
-       <p>
-           Lorem ipsum dolor, sit amet consectetur adip isicing elit. Dolorem, in. Eum deserunt maiores animi ipsam pariatur natus, reiciendis sed, blanditiis exercitationem placeat suscipit veritatis esse ratione fugiat magnam alias minima.
-           Consequuntur quo nemo voluptatibus. Doloremque eius officiis alias? Voluptatum, eum. Placeat ex ullam consequuntur ducimus est libero animi, rem optio. Minus quae, officia praesentium nam nisi cumque assumenda! Explicabo, sed?
-       </p>
-      <button class="button">primario</button>
-      <button class="button">segundario</button>
-
-    </div>
-    <div class="container">
-        <div class="grid col-3 med-1 sm-1">
-            <div class="span-2">
-             <div class="card m-t">
-                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eos natus fugiat quas, saepe quia magni odit esse mollitia consequuntur suscipit repellendus labore, distinctio voluptatibus iste, assumenda nisi officiis provident!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi obcaecati laborum facere quia suscipit recusandae cupiditate, cum illum possimus dolores error impedit ipsam, beatae molestias quis dignissimos, quasi dicta soluta!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis fugit illum sint architecto itaque voluptatem possimus, totam voluptate accusantium suscipit nesciunt velit vero, facilis pariatur nobis optio aut? Distinctio, magni.
-                </p>   
-             </div>
-             <div class="card m-t">
-                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eos natus fugiat quas, saepe quia magni odit esse mollitia consequuntur suscipit repellendus labore, distinctio voluptatibus iste, assumenda nisi officiis provident!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi obcaecati laborum facere quia suscipit recusandae cupiditate, cum illum possimus dolores error impedit ipsam, beatae molestias quis dignissimos, quasi dicta soluta!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis fugit illum sint architecto itaque voluptatem possimus, totam voluptate accusantium suscipit nesciunt velit vero, facilis pariatur nobis optio aut? Distinctio, magni.
-                </p>   
-             </div>
+        <div class="span-12 p-2">
+            <h2 class="m-t-4">Barra de navegacion simple</h2>
+            <div class="container card">
+                <header>
+                    <nav class="nav">
+                        <div class="container">
+                            <a href="#" class="active">Inicio</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Acerca de</a>
+                            <a href="#">Contacto</a>
+                        </div>
+                    </nav>
+                </header>
             </div>
 
-            <div class="card m-t ">
-                <h3>Registrate</h3>
-                <form>
-                    <input class="input max" type="text" placeholder="E-mail">
-                    <input class="input max" type="password" placeholder="Contraseña">
-                     <button class="button">Suscribete</button>
-                     <button class="button">Registrate</button>
-                </form>
+            <h2>Encabezados</h2>
+            <div class="container card">
+                <h1>Encabezado H1</h1>
+                <h2>Encabezado H2</h4>
+                    <h3>Encabezado H3</h3>
+                    <h4>Encabezado H4</h4>
+                    <h5>Encabezado H5</h5>
+                    <h6>Encabezado H6</h6>
             </div>
-        </div>
-    </div>
 
-    <div class="container">
-        <div class="card">
-           <div>
-              <h3>styles inputs</h3>
-                 <form class="grid col-4 med-1 sm-1 " >
+            <h2>Display</h2>
+
+            <div class="container card">
+                <h1 class="display-1">Display 1</h1>
+                <h2 class="display-2">Display 2</h4>
+                    <h3 class="display-3">Display 3</h3>
+            </div>
+
+            <h2>Sistema de columnas</h2>
+            <div class="container">
+                <h3 class="text-c">grid col-3 med-2 sm-1</h3>
+                <main class="grid col-3 med-2 sm-1">
+                    <div class="card">Card 1</div>
+                    <div class="card">Card 2</div>
+                    <div class="card">Card 3</div>
+                    <div class="card">Card 4</div>
+                    <div class="card">Card 5</div>
+                    <div class="card">Card 6</div>
+                </main>
+            </div>
+
+
+            <div class="container">
+                <h3 class="text-c">grid col-3 med-1 sm-1</h3>
+
+                <div class="grid col-3 med-1 sm-1">
+
+                    <div class="span-2 sm-span-1">
+                        <h3>span-2</h3>
+                        <div class="card m-t">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi obcaecati laborum facere
+                                quia
+                                suscipit recusandae cupiditate, cum illum possimus dolores error impedit ipsam, beatae
+                                molestias quis dignissimos, quasi dicta soluta!
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis fugit illum sint
+                                architecto
+                                itaque voluptatem possimus, totam voluptate accusantium suscipit nesciunt velit vero,
+                                facilis pariatur nobis optio aut? Distinctio, magni.
+                            </p>
+                        </div>
+                        <div class="card m-t">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi obcaecati laborum facere
+                                quia
+                                suscipit recusandae cupiditate, cum illum possimus dolores error impedit ipsam, beatae
+                                molestias quis dignissimos, quasi dicta soluta!
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis fugit illum sint
+                                architecto
+                                itaque voluptatem possimus, totam voluptate accusantium suscipit nesciunt velit vero,
+                                facilis pariatur nobis optio aut? Distinctio, magni.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card m-t ">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi obcaecati laborum facere quia
+                            suscipit recusandae cupiditate, cum illum possimus dolores error impedit ipsam, beatae
+                            molestias
+                            quis dignissimos, quasi dicta soluta!
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis fugit illum sint architecto
+                            itaque voluptatem possimus, totam voluptate accusantium suscipit nesciunt velit vero,
+                            facilis
+                            pariatur nobis optio aut? Distinctio, magni.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Botones</h2>
+            <div class="container card">
+                <button class="button">Simple</button>
+                <button class="button bordered">Bordeado</button>
+            </div>
+
+            <h2>formularios Input</h2>
+            <div class="container card">
+
+                <form class="grid col-4 med-1 sm-1 ">
                     <input class="input" type="text" placeholder="input default">
-                     <input class="inputColl" type="text" placeholder="inputColl">
-                     <input class="inputMason" type="text" placeholder="inputMason">
-                 </form>
-           </div>
-        </div>
-     </div>
-
-    <div class="container">
-       <div class="card">
-          <div>
-             <h3>forms system grid colum</h3>
-                <form class="grid col-4 med-1 sm-1 " >
-                    <input class="input " type="text" placeholder="col-1">
-                    <input class="input " type="text" placeholder="col-2">
-                    <input class="input " type="text" placeholder="col-3">
-                    <input class="input" type="text" placeholder="col-3">
+                    <input class="inputColl" type="text" placeholder="inputColl">
+                    <input class="inputMason" type="text" placeholder="inputMason">
                 </form>
-          </div>
-       </div>
-    </div>
 
-    <div class="container">
-        <div class="card">
-            <h2>Spinner</h2>
-            <h3>Spinner default</h3>
-            <div class="center">
-               <div class="spinner"></div>
             </div>
-            <h3>I like</h3>
-            <div class="center">
-                <div class="spinnerColl"></div>
+
+            <div class="container">
+                <h3>Usando el sistema de columnas en los formularios</h3>
+                <div class="card">
+                    <form class="grid col-4 med-1 sm-1 ">
+                        <input class="input span-2 med-span-1 med-sm-1" type="text" placeholder="col-1">
+                        <input class="input " type="text" placeholder="col-2">
+                        <input class="input " type="text" placeholder="col-3">
+                        <input class="input span-3 med-span-1 med-sm-1" type="text" placeholder="col-3">
+                        <input class="input" type="text" placeholder="col-3">
+                        <input class="input" type="text" placeholder="col-3">
+                        <input class="input" type="text" placeholder="col-3">
+                    </form>
+                </div>
             </div>
-            <h3>Alternative</h3>
-            <div class="container-progress">
-                <div class="progress"></div>
+
+            <h2>Progreso</h2>
+            <div class="container">
+                <h3 class="m-t">Spinner simple</h3>
+                <div class="card">
+                    <div class="center">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+
+                <h3 class="m-t">Me gusta este</h3>
+                <div class="card">
+                    <div class="center">
+                        <div class="spinnerColl"></div>
+                    </div>
+                </div>
+
+                <h3 class="m-t">otra opcion</h3>
+                <div class="card">
+                    <div class="container-width-progress">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+            </div>
+            <h2>hr</h2>
+            <div class="container card">
+                <hr class="hr">
+            </div>
+            <h2>Barras de busqueda</h2>
+            <div class="container card">
+                <h3>Barra con efecto focus </h3>
+                <form class="container-width-search">
+                    <input placeholder="Search...." class="search">
+                </form>
+            </div>
+            <h2>Alertas</h2>
+            <div class="container card">
+                <h3>Alerta informativa</h3>
+                <div class="alert info">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere dolores, aperiam ducimus fugiat
+                        ex voluptatibus, minus sit sint quisquam optio quo, numquam rerum dolor. Accusantium ab rerum
+                        sunt ipsum delectus.</p>
+                </div>
+                <h3>Alerta de error</h3>
+
+                <div class="alert error">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere dolores, aperiam ducimus fugiat
+                        ex voluptatibus, minus sit sint quisquam optio quo, numquam rerum dolor. Accusantium ab rerum
+                        sunt ipsum delectus.</p>
+                </div>
+                <h3>Alerta de exito</h3>
+
+                <div class="alert success">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere dolores, aperiam ducimus fugiat
+                        ex voluptatibus, minus sit sint quisquam optio quo, numquam rerum dolor. Accusantium ab rerum
+                        sunt ipsum delectus.</p>
+                </div>
+            </div>
+            <h2>Backgrounds</h2>
+            <div class="container card">
+                <div class="grid col-6 med-1 sm-1">
+                    <div  class="card bg-white"> bg-white</div>
+                    <div class="card bg-black color-white">bg-black</div>
+                    <div class=" card bg-primary">bg-primary</div>
+                    <div class="card bg-secondary">bg-secondary</div>
+                    <div class="card bg-error">bg-error</div>
+                    <div class="card bg-success">bg-success</div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="card">
-            <h3>hr</h3>
-            <hr class="hr">
-        </div>
+
     </div>
-    <div class="container">
-       <div class="card">
-           <h3>input search</h3>
-           <div>
-               <form class="container-search">
-                   <input placeholder="Search...." class="search">
-               </form>
-           </div>
-       </div>
-    </div>
+</div>
 </body>
+
 </html>
